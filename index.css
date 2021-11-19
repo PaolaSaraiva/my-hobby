@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url(./assets/images/background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fffe;
+    width: 40%;
+    padding: 0 240px 60px;
+}
+
+section {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px 0 ;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+}
+
+.field {
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.description {
+    font-size: 18px;
+}
+
+#photo {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.hobby-images  > li > img {
+    width: 520px;
+}
+
+.links > li > a {
+    font-size: 18px;
+    line-height: 1.8em;
+}
